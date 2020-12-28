@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ninePatchImage (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ninePatchImage (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ninePatchImage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ninePatchImage: cedfb369769fd1f2ceaaf695d97e99791508288d
+
+PODFILE CHECKSUM: d359776bd8a18fc41a24ee1a57946ad72e75322c
+
+COCOAPODS: 1.10.0

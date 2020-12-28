@@ -1,0 +1,6 @@
+framework module ninePatchImage {
+  umbrella header "ninePatchImage-umbrella.h"
+
+  export *
+  module * { export * }
+}
